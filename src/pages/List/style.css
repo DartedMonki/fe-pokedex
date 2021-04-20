@@ -1,0 +1,83 @@
+.type-rounded {
+  background-color: #60E2C8;
+  border-radius: 25px;
+  color: white;
+  padding: 3px 10px;
+  max-width: fit-content;
+  z-index: 1;
+}
+
+.custom-card {
+  background-color: #48CFAF;
+  color: white;
+  height: 144px;
+}
+
+.grass-color {
+  background-color: #48CFAF;
+}
+
+.fire-color {
+  background-color: #FD6B6C;
+}
+
+.water-color {
+  background-color: #77BCFD;
+}
+
+.electric-color {
+  background-color: #FFD771;
+}
+
+.grass-light-color {
+  background-color: #60E2C8;
+}
+
+.fire-light-color {
+  background-color: #FE8484;
+}
+
+.water-light-color {
+  background-color: #8FCCFA;
+}
+
+.electric-light-color {
+  background-color: #FFE590;
+}
+
+.custom-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.custom-card-wrapper div:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.rounded-corner {
+  border-radius: 25px !important;
+}
+
+.box-shadow {
+  box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+;
+}
+
+.sprite {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
